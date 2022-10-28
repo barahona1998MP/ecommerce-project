@@ -1,0 +1,30 @@
+.cart-product {
+    border: 1px solid var(--gray);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.cart-p__icon {
+    font-size: 20px;
+}
+
+.cart-product__btn {
+    background-color: var(--primary);
+    border-radius: .5rem;
+    color: #fff;
+    display: block;
+    margin: 1rem 0 2rem auto;
+    padding: .8rem 3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cart-total__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}

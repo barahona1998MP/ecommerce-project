@@ -1,0 +1,19 @@
+.product-info-flex {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 845px) {
+    .product-info-flex {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}

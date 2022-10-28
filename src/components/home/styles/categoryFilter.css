@@ -1,0 +1,20 @@
+
+.filter-category__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.7rem;
+    padding-left: 1rem;
+    cursor: pointer;
+
+}
+
+.filter-category__list li {
+    color: #515151;
+    font-weight: 400;
+
+}
+
+.filter-category__list li:not(:last-child) {
+    margin-bottom: .5rem;
+}
