@@ -1,18 +1,25 @@
 .card-purchase {
     border: 1px solid #ccc;
-    padding: 1rem;
+    border-radius: .5rem;
     margin-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 .card-purchase__section {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin-bottom: 1rem;
+
+}
+
+.card-purchase__title {
+    text-align: center;
+}
+
+.card-purchase__quantity,
+.card-purchase__price {
     
 }
 
-.card-purchase__date {
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    font-weight: 400;
+.card-purchase__span {
+    display: inline-block;
+    width: 7rem;
+    text-align: center;
 }

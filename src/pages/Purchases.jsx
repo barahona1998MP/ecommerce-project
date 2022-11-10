@@ -26,6 +26,7 @@ const Purchases = () => {
               key={purchase.id}
               purchase={purchase}
             />
+            
           ))
         }
       </div>

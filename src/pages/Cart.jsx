@@ -20,6 +20,7 @@ const Cart = () => {
   console.log(cart)
 
    useEffect(() => {
+    
     if(cart) {
       const result = cart.products.reduce((acc, cv) => {
         return acc + Number(cv.price) * cv.productsInCart.quantity
